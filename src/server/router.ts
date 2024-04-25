@@ -1,10 +1,12 @@
-import { contract } from "../common/contract";
-import { initServer } from "ts-rest-hono";
+import { Hono } from "hono";
 
-export function initRouter() {
-  return initServer().router(contract, {
-    async greet({ params }) {
-      return { status: 200, body: `Hello ${params.name}` };
-    },
-  });
+export function routes() {
+  const router = new Hono();
+
+  router.get("/api", (ctx) => {
+    return ctx.json({
+      fff: "fff",
+    });
+  })
+  return router;
 }
