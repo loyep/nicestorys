@@ -41,8 +41,8 @@ dependencies:
 
 devDependencies:
   '@hono/node-server':
-    specifier: ^1.11.0
-    version: 1.11.0
+    specifier: ^1.11.4
+    version: 1.11.4
   '@hono/swagger-ui':
     specifier: ^0.2.1
     version: 0.2.1(hono@4.2.7)
@@ -608,8 +608,8 @@ packages:
     resolution: {integrity: sha512-LL/57KBbM3r0UMuN6tSeYExiBObt0QuGq49m1FyoDFIv1GAcuKU0EQ/GAKJ/yt3R8onOCD3f5X9Dln//G6uzRQ==}
     dev: false
 
-  /@hono/node-server@1.11.0:
-    resolution: {integrity: sha512-TLIJq9TMtD1NEG1mVoqNUn1Ita0qSaB5XboZErjFBcO/GJYXwWY4dVdTi9G0lbxtu0x+hJXDItcLaFHb7rlFTw==}
+  /@hono/node-server@1.11.4:
+    resolution: {integrity: sha512-8TOiiiAqcFC6f62P7M9p6adQREAlWdVi1awehAwgWW+3R65/rKzHnLARO/Hu/466z01VNViBoogqatqXJMyItA==}
     engines: {node: '>=18.14.1'}
     dev: true
 
